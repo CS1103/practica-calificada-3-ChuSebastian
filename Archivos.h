@@ -33,7 +33,7 @@ void lectura() {
 
 
     while (getline(archivo, texto)){
-        cout << alias << endl;
+        cout << texto << endl;
 
     }
 
@@ -44,6 +44,7 @@ void lectura() {
 
     archivo.close();
 }
+
 
 
 
