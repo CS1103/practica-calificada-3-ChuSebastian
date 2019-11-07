@@ -1,6 +1,7 @@
-#include <iostream>
+#include "Archivos.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+    lectura();
+    escritura();
+
 }
