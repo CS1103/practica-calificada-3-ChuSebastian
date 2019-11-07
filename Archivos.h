@@ -10,6 +10,8 @@
 
 using namespace std;
 
+string texto;
+
 string alias;
 int bid;
 
@@ -28,6 +30,13 @@ void lectura() {
         cout << "No se pudo abrir el archivo";
         exit(1);
     }
+
+
+    while (getline(archivo, texto)){
+        cout << alias << endl;
+
+    }
+
 
     //Leer cada linea del archivo de texto
     //validar de que los productos sean almacenados en el vector pair vProd
@@ -50,7 +59,7 @@ void escritura() {
         cout << "No se pudo abrir el archivo";
         exit(1);
     }
-    
+
 
     archivo << "Prueba del archivo";
     archivo.close();
